@@ -1,0 +1,17 @@
+2021-09-04 20:54:18,090 INFO [root] [api_login.py(__init__:14)] - 开始获取url地址：
+2021-09-04 20:54:18,122 INFO [root] [api_login.py(login:26)] - 准备发起login的请求,请求的参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:54:18,250 INFO [root] [api_login.py(login:29)] - 获取的响应值是{'msg': '密码格式 6~18 个字符之间', 'code': -2, 'data': ''}
+2021-09-04 20:54:18,254 INFO [root] [api_login.py(login:26)] - 准备发起login的请求,请求的参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:54:18,360 INFO [root] [api_login.py(login:29)] - 获取的响应值是{'msg': '登录账号有误', 'code': -1, 'data': ''}
+2021-09-04 20:54:18,364 INFO [root] [api_login.py(login:26)] - 准备发起login的请求,请求的参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:54:18,534 INFO [root] [api_login.py(login:29)] - 获取的响应值是{'msg': '帐号不存在', 'code': -3, 'data': ''}
+2021-09-04 20:54:18,538 INFO [root] [api_login.py(login:26)] - 准备发起login的请求,请求的参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:54:18,691 INFO [root] [api_login.py(login:29)] - 获取的响应值是{'msg': '密码错误', 'code': -4, 'data': ''}
+2021-09-04 20:54:18,696 INFO [root] [api_order.py(__init__:6)] - 准备初始化请求地址
+2021-09-04 20:54:18,696 INFO [root] [api_order.py(__init__:8)] - 请求地址为http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+2021-09-04 20:54:18,696 INFO [root] [api_login.py(__init__:14)] - 开始获取url地址：
+2021-09-04 20:54:18,720 INFO [root] [api_login.py(login_success:39)] - 准备发起成功的login请求：
+2021-09-04 20:54:18,720 INFO [root] [api_login.py(login_success:42)] - 成功请求的数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2021-09-04 20:54:18,863 INFO [root] [api_login.py(login_success:45)] - 获取的响应值是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2021-09-04 20:54:18,864 INFO [root] [api_order.py(order:17)] - 准备发起下订单请求
+2021-09-04 20:54:18,864 INFO [root] [api_order.py(order:27)] - 准备发起order的请求,请求的参数是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}

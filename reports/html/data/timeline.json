@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-D8B0CGNS",
+    "children" : [ {
+      "name" : "59740-MainThread",
+      "children" : [ {
+        "name" : "登录的测试用例",
+        "uid" : "51425383cf416729",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760058123,
+          "stop" : 1630760058252,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "d98ac9990f771f9b",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760058255,
+          "stop" : 1630760058362,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': '', 'pwd': 'yaoyao', 'exp': '登录账号有误'}" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "1b5b20ebf845b483",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760058365,
+          "stop" : 1630760058535,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'lwx', 'pwd': 'yaoyao', 'exp': '帐号不存在'}" ]
+      }, {
+        "name" : "test_order",
+        "uid" : "453b5f9408b76ed0",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760058865,
+          "stop" : 1630760059093,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pay",
+        "uid" : "550a2751676797c7",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760059466,
+          "stop" : 1630760060200,
+          "duration" : 734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "c20f4d60b0ec4bad",
+        "parentUid" : "5505700dbc8ebbdd92e2f05baf5609dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630760058539,
+          "stop" : 1630760058692,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '123456', 'exp': '密码错误'}" ]
+      } ],
+      "uid" : "5505700dbc8ebbdd92e2f05baf5609dc"
+    } ],
+    "uid" : "507d0314862cc6c1e0a29cf48926c3b2"
+  } ]
+}

@@ -1,0 +1,2 @@
+INFO     root:api_login.py:26 准备发起login的请求,请求的参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:api_login.py:29 获取的响应值是{'msg': '帐号不存在', 'code': -3, 'data': ''}

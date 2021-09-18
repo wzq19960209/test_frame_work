@@ -1,0 +1,2 @@
+INFO     root:api_login.py:26 准备发起login的请求,请求的参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:api_login.py:29 获取的响应值是{'msg': '密码错误', 'code': -4, 'data': ''}

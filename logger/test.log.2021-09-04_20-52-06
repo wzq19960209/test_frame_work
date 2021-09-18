@@ -1,0 +1,22 @@
+2021-09-04 20:52:06,045 INFO [root] [api_login.py(login:29)] - 获取的响应值是{'msg': '密码错误', 'code': -4, 'data': ''}
+2021-09-04 20:52:06,054 INFO [root] [api_order.py(__init__:6)] - 准备初始化请求地址
+2021-09-04 20:52:06,054 INFO [root] [api_order.py(__init__:8)] - 请求地址为http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+2021-09-04 20:52:06,055 INFO [root] [api_login.py(__init__:14)] - 开始获取url地址：
+2021-09-04 20:52:06,083 INFO [root] [api_login.py(login_success:39)] - 准备发起成功的login请求：
+2021-09-04 20:52:06,083 INFO [root] [api_login.py(login_success:42)] - 成功请求的数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2021-09-04 20:52:06,230 INFO [root] [api_login.py(login_success:45)] - 获取的响应值是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2021-09-04 20:52:06,238 INFO [root] [api_order.py(order:17)] - 准备发起下订单请求
+2021-09-04 20:52:06,239 INFO [root] [api_order.py(order:27)] - 准备发起order的请求,请求的参数是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:52:06,408 INFO [root] [api_order.py(order:30)] - 请求响应值为{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '13811', 'order_no': '20210904205205951955', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1630759925', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1630759925', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13811.html'}}
+2021-09-04 20:52:06,408 INFO [root] [api_order.py(order:33)] - 提取数据:响应值中的jump_url字段为http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13811.html
+2021-09-04 20:52:06,413 INFO [root] [api_login.py(__init__:14)] - 开始获取url地址：
+2021-09-04 20:52:06,434 INFO [root] [api_login.py(login_success:39)] - 准备发起成功的login请求：
+2021-09-04 20:52:06,435 INFO [root] [api_login.py(login_success:42)] - 成功请求的数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2021-09-04 20:52:06,574 INFO [root] [api_login.py(login_success:45)] - 获取的响应值是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2021-09-04 20:52:06,574 INFO [root] [api_order.py(__init__:6)] - 准备初始化请求地址
+2021-09-04 20:52:06,574 INFO [root] [api_order.py(__init__:8)] - 请求地址为http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+2021-09-04 20:52:06,574 INFO [root] [api_order.py(order:17)] - 准备发起下订单请求
+2021-09-04 20:52:06,574 INFO [root] [api_order.py(order:27)] - 准备发起order的请求,请求的参数是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2021-09-04 20:52:06,734 INFO [root] [api_order.py(order:30)] - 请求响应值为{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '13812', 'order_no': '20210904205206417044', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1630759926', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1630759926', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13812.html'}}
+2021-09-04 20:52:06,734 INFO [root] [api_order.py(order:33)] - 提取数据:响应值中的jump_url字段为http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13812.html
+2021-09-04 20:52:06,734 INFO [root] [api_pay.py(__init__:8)] - 获取jump_url为http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13812.html

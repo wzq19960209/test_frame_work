@@ -1,0 +1,14 @@
+INFO     root:api_login.py:14 开始获取url地址：
+INFO     root:api_login.py:39 准备发起成功的login请求：
+INFO     root:api_login.py:42 成功请求的数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+INFO     root:api_login.py:45 获取的响应值是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+INFO     root:api_order.py:6 准备初始化请求地址
+INFO     root:api_order.py:8 请求地址为http://121.42.15.146:9090//mtx/index.php?s=/index/buy/add.html
+INFO     root:api_order.py:17 准备发起下订单请求
+INFO     root:api_order.py:27 准备发起order的请求,请求的参数是{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+INFO     root:api_order.py:30 请求响应值为{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '13814', 'order_no': '20210904205418147406', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1630760058', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1630760058', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13814.html'}}
+INFO     root:api_order.py:33 提取数据:响应值中的jump_url字段为http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13814.html
+INFO     root:api_pay.py:8 获取jump_url为http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13814.html
+INFO     root:api_pay.py:11 准备对http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/13814.html发起请求，并阻止接口重定向
+INFO     root:api_pay.py:15 提取数据：请求响应头数据为{'Date': 'Sat, 04 Sep 2021 12:54:18 GMT', 'Server': 'Apache/2.4.23 (Win64) PHP/7.0.10', 'X-Powered-By': 'PHP/7.0.10', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-cache,must-revalidate', 'Pragma': 'no-cache', 'Location': 'http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20210904205418147406&subject=è®¢å\x8d\x95æ\x94¯ä»\x98&total_price=2100.00', 'Content-Length': '0', 'Keep-Alive': 'timeout=5, max=98', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+INFO     root:api_pay.py:16 发起请求：请求响应值为<Response [200]>
